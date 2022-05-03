@@ -1,0 +1,30 @@
+Name: Gurtaj Khabra
+SID: 1661752
+CCID: Gurtaj
+CMPUT 275 Wi22
+
+Assignment 1: Navigation System (Part 2)
+
+Included Files:
+    * soln/server (subdir)
+	* digraph.h
+	* digraph.cpp
+	* wdigraph.h
+	* dijkstra.cpp
+	* dijkstra.h
+	* server.cpp
+	* edmonton-roads-2.0.1.txt
+	* Makefile
+    * soln/client (subdir)
+	* client.py
+    * soln/map (subdir)
+	* PNG files
+    * README
+    * Makefile
+
+Running Instructions:
+    Open the command line or terminal in the assignment_part2-GurtajK/soln/server directory and type "make server".
+    Open another instance of command line or terminal in the assignment_part2-GurtajK/soln directory and type "make run".
+    	Alternatively, open 2 instances in the /soln directoryy and type ./server/server in one, and python3 client/client.py in the other.
+    Use the plotter program to choose a start and end point.
+    Type make clean when finished.
